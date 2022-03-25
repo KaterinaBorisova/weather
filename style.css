@@ -64,4 +64,6 @@ input{
  #header{
     display: flex;
     justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-style: non;
 }
