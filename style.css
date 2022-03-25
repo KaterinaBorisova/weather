@@ -61,3 +61,7 @@ input{
     border-radius: 10px;
     margin: 10px;
 }
+ #header{
+    display: flex;
+    justify-content: center;
+}
