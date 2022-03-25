@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Estonia&family=Lato&family=Merriweather:ital,wght@1,300&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Outfit:wght@300&family=Reem+Kufi&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@1,300&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Узнай свой счёт</h1>
+        <form >
+        <p>Общий счёт💸</p>
+        <span>
+            <input type="text" id="bill" placeholder="Сумма общего счёта">
+        </span>    
+        <p>Количество персон👫</p>
+        <span>
+            <input type="text" id="people" placeholder="Сколько человек?">
+        </span> 
+        
+        <p>Оцените наш сервис🔥</p>
+
+        <button id="add">Готовы оставить чаевые?</button>
+        <select  id="tip">
+            <option disabled selected>выбрать опцию</option>
+            <option value="0.30">30%</option>
+            <option value="0.20">20%</option>
+            <option value="0.10">10%</option>
+            <option value="0.00">пожалуй не в этот раз</option>
+        </select>
+
+        <button id="btn">Калькулятор</button>
+
+        </form>
+        <div id="box">
+            <div id="sum">
+                <p>Сумма</p>
+                <span>₽</span>
+                <span id="one"></span>
+                <span>с человека</span>
+            </div>
+
+            <div id="totalTip">
+                <p >Чаевые</p>
+                <span>₽</span>
+                <span id="two"></span>
+                <span>с человека</span>
+            </div>
+
+            <div id="totalSum">
+                <p>Итого</p>
+                <span>₽</span>
+                <span id="three"></span>
+                <span>с человека</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

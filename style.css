@@ -1,0 +1,63 @@
+body{
+    background-image: url(photo.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #4d3e34;
+}
+.container{
+    background-color: rgba(221, 188, 151, 0.9);
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    color: #4d3e34;
+}
+h1{
+    align-self: center;
+    font-family: 'Lato', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+input{
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    border: 2px solid #4d3e34;
+}
+#add{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #4d3e34;
+}
+#tip{
+    display: none;
+    font-family: 'Lato', sans-serif;
+}
+#btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  #4d3e34;
+    color: rgb(243, 206, 158);
+    border: 2px solid #4d3e34;
+}
+#box{
+    display: flex;
+    justify-content: space-around;
+}
+#sum, #totalSum, #totalTip{
+    background-color: #4d3e34;
+    color:rgb(243, 206, 158);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
