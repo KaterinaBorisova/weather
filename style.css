@@ -64,6 +64,10 @@ input{
  #header{
     display: flex;
     justify-content: center;
-    font-family: 'Lato', sans-serif;
-     text-decoration: none;
+    
 }
+.mail{
+      text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+    
